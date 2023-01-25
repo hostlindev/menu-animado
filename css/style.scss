@@ -90,3 +90,8 @@ body {
     }
   }
 }
+@media (max-width: 600px) {
+  ul {
+    flex-direction: column;
+  }
+}

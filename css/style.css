@@ -89,4 +89,10 @@ body ul li .title {
   transform: scale(0);
   transition: 0.5s;
   transition-delay: 0s;
+}
+
+@media (max-width: 600px) {
+  ul {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
